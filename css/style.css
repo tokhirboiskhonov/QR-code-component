@@ -5,7 +5,7 @@
   --body-bg: #d5e1ef;
   --text-color: #7d889e;
   --card-bg: #fff;
-  --heading-color: #1f314f;
+  --dark-color: #1f314f;
   --qr-bg: #2c7dfa;
   --blue-shade: #3685ff;
 }
@@ -124,7 +124,7 @@ img {
   font-size: 22px;
   line-height: normal;
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--dark-color);
 }
 
 .qr-code-card__text {
