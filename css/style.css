@@ -4,7 +4,6 @@
   /* COLORS */
   --body-bg: #d5e1ef;
   --text-color: #7d889e;
-  --card-bg: #fff;
   --dark-color: #1f314f;
   --card-bg: #fff;
   --qr-bg: #2c7dfa;
@@ -95,31 +94,6 @@ img {
   margin-right: auto;
 }
 
-.theme-toggle-btn {
-  position: absolute;
-  z-index: 1;
-  right: 12px;
-  top: 12px;
-  padding: 4px 12px;
-  border: 1px solid var(--dark-color);
-  border-radius: 8px;
-  font-size: 14px;
-  line-height: normal;
-  background-color: transparent;
-  color: var(--dark-color);
-  cursor: pointer;
-  text-transform: capitalize;
-}
-
-.theme-toggle-btn:hover {
-  background-color: var(--dark-color);
-  color: var(--card-bg);
-}
-
-.theme-toggle-btn:active {
-  opacity: 0.6;
-}
-
 .qr-code-card {
   flex-shrink: 0;
   width: 100%;
@@ -172,13 +146,9 @@ img {
     --qr-bg: #3685ff;
     --qr-round: #2c7dfa;
   }
+
   body {
     padding: 16px;
-  }
-
-  .theme-toggle-btn {
-    position: static;
-    align-self: flex-end;
   }
 
   .qr-code-card__heading {
