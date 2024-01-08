@@ -6,8 +6,9 @@
   --text-color: #7d889e;
   --card-bg: #fff;
   --dark-color: #1f314f;
+  --card-bg: #fff;
   --qr-bg: #2c7dfa;
-  --blue-shade: #3685ff;
+  --qr-round: #3685ff;
 }
 
 /* GLOBAL */
